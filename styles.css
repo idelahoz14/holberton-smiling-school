@@ -381,3 +381,105 @@ html {
             font-size: 12px;
             margin: 12px 0 0 90px;
         }
+
+    /* Free membership
+        ============================ */
+
+        .free-membership {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            background-color: #071629;
+            max-width: 100%;
+            height: 500px;
+            color: #FFFFFF;
+        }
+
+        .title-membership span {
+            color: #C271FF;
+        }
+        
+        .section-header .title-membership {
+            padding: 5rem 0 5rem 0;
+            text-align: center;
+            font-weight: 200;
+            font-size: 32px;
+        }
+
+        .section-body {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+
+        [class*="dot-"] {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #FFFFFF;
+            margin: 0 4rem 0 4rem;
+        }
+
+        .title-dot {
+            font-weight: 600;
+            margin: 1rem 0 1rem 0;
+        }
+
+        .subtitle-dot {
+            font-weight: 300;
+            font-size: 12px;
+        }
+
+        .membership-button {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .membership-button .button {
+            width: 180px;
+            height: 40px;
+            border-radius: 22px;
+            border: 0;
+            color: #FFFFFF;
+            background-color: #C271FF;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin: 2rem 0 0 0;
+            outline: none;
+        }
+
+        .membership-button .button:hover {
+            opacity: 0.9;
+        }
+
+        @media only screen and (max-width: 1120px) {
+            .free-membership {
+                height: 750px;
+            }
+
+            .membership-button .button {
+                margin: 5rem 0 0 0;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            .free-membership {
+                height: 750px;
+            }
+
+            .membership-button .button {
+                margin: 5rem 0 0 0;
+            }
+        }
+
+        @media only screen and (max-width: 576px) {
+            .free-membership {
+                height: 1200px;
+            }
+
+            .membership-button .button {
+                margin: 6rem 0 0 0;
+            }
+        }
