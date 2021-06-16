@@ -265,3 +265,119 @@ html {
             padding-bottom: 10rem;
         }
     }
+
+    /* Most popular tutorials
+        ============================ */
+
+        .most-popular-tutorials .title {
+            text-align: center;
+            font-weight: 200;
+            font-size: 32px;
+            margin: 5rem 0 5rem 0;
+        }
+
+
+        .most-popular-tutorials .title span {
+            color: #C271FF;
+        }
+
+        .most-popular-tutorials .carousel-item {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            background-color: #FFFFFF;
+            max-width: 100%;
+            height: 390px;
+            color: #FFFFFF;
+        }
+
+        .most-popular-tutorials .carousel-items img {
+            border-radius: 5px;
+            margin: 0;
+        }
+
+        .most-popular-tutorials #play-tuto1 {
+            position: absolute;
+            top: 2.5rem;
+            left: 13rem;
+        }
+
+        .most-popular-tutorials #play-tuto2 {
+            position: absolute;
+            top: 2.5rem;
+            left: 28.5rem;
+        }
+
+        .most-popular-tutorials #play-tuto3 {
+            position: absolute;
+            top: 2.5rem;
+            left: 44rem;
+        }
+
+        .most-popular-tutorials #play-tuto4 {
+            position: absolute;
+            top: 2.5rem;
+            left: 60rem;
+        }
+
+        .most-popular-tutorials .holberton_school-icon-arrow_3,
+        .most-popular-tutorials .holberton_school-icon-arrow_4 {
+            padding-bottom: 10rem;
+            color: black;
+        }
+
+        .carousel-items .tuto-1 {
+            color: black;
+            width: 250px;
+        }
+
+        .carousel-items .tuto-2 {
+            color: black;
+            width: 250px;
+        }
+
+        .carousel-items .tuto-3 {
+            color: black;
+            width: 250px;
+        }
+
+        .carousel-items .tuto-4 {
+            color: black;
+            width: 250px;
+        }
+
+        .title-tuto {
+            font-size: 14px;
+            padding-top: 1rem;
+        }
+
+        .description-tuto {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        .rating {
+            display: flex;
+            flex-wrap: wrap;
+            color: #C271FF;
+        }
+
+        .rating #profile {
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+
+        .rating #star {
+            margin: 15px 3px 15px 3px;
+        }
+
+        .rating .name-rating {
+            font-size: 12px;
+            margin-right: 7rem;
+        }
+
+        .time {
+            font-size: 12px;
+            margin: 12px 0 0 90px;
+        }
