@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.principal {
+    background-image: url("images/pic_1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: #D8D8D8;
+    max-width: 100%;
+    height: 1100px;
+}
+
+.container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.header-logo {
+    padding-top: 2rem;
+    margin: 0;
+}
+
+.navbar-menu {
+    float: right;
+}
+
+.nav {
+    padding-top: 2rem;
+    margin: 0;
+}
+
+.nav .nav-item {
+    letter-spacing: 0.02rem;
+}
+
+.nav .nav-link {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.nav .nav-link:hover {
+    transition: 0.5s;
+    color: #C271FF;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-title .title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 100px;
+    padding-top: 10rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+
+.main-subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.main-subtitle .subtitle {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 2rem 0 2rem;
+    text-transform: uppercase;
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+}
+
+.main-button .button {
+    width: 180px;
+    height: 40px;
+    border-radius: 22px;
+    border: 0;
+    color: #FFFFFF;
+    background-color: #C271FF;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 2rem 0 12rem 0;
+    outline: none;
+}
+
+.main-button .button:hover {
+    opacity: 0.9;
+}
+
+.main-information {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 4rem 0;
+}
+
+.main-information .span-information {
+    color: #C271FF;
+}
+
+.main-information .information {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.main-pros {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-pros img {
+    border-radius: 50%;
+}
+
+[class*="pro-"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.main-pros .name {
+    font-weight: 900;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.main-pros .award-information {
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .principal {
+        height: 1390px;
+    }
+
+    #smile {
+        margin: 1rem 0 0 15rem;
+    }
+
+    #logo {
+        margin: 1rem 0 0 10rem;
+    }
+    .navbar-menu {
+        flex: 1;
+    }
+
+    .nav {
+        flex-direction: column;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height .2s ease-out;
+    }
+
+    .main-title .title {
+        font-size: 60px;
+        padding-top: 17rem;
+    }
+
+    .main-pros {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    [class*="pro-"] {
+        padding: 0 2rem 0 2rem;
+    }
+
+}
+
+/* Carousel of quotes Section
+    ============================ */
+
+    .carousel-item {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        background-color: #C271FF;
+        max-width: 100%;
+        height: 390px;
+        color: #FFFFFF;
+    }
+
+    .carousel-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-items img {
+        border-radius: 50%;
+        margin: 8rem 2rem 0 0;
+    }
+
+    .information-items {
+        width: 550px;
+        margin-top: 8rem;
+    }
+
+    .carousel-items .carousel-information{
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+
+    .carousel-items .carousel-name {
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .carousel-items .name-information {
+        font-weight: 400;
+        font-size: 14px;
+        font-style: italic;
+        margin: 0;
+    }
+
+    .holberton_school-icon-arrow_3,
+    .holberton_school-icon-arrow_4 {
+        font-size: 95px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .information-items {
+            width: 350px;
+        }
+    }
+
+    @media only screen and (max-width: 576px) {
+        .carousel-items {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .carousel-items img {
+            margin: 2rem 2rem 0 0;
+        }
+
+        .information-items {
+            width: 250px;
+            margin-top: 1rem;
+        }
+
+        .holberton_school-icon-arrow_3,
+        .holberton_school-icon-arrow_4 {
+            padding-bottom: 10rem;
+        }
+    }
