@@ -676,3 +676,162 @@ html {
                 padding-top: 1rem;
             }
         }
+
+    /* Pircing page
+        ============================ */
+
+        .principal-section {
+            background-image: url("images/pic_2.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            background-color: #D8D8D8;
+            max-width: 100%;
+            height: 1100px;
+        }        
+
+        .container-pircing {
+            color: #FFFFFF;
+        }
+
+        .container-pircing .title-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .title-container .title {
+            font-size: 30px;
+            font-weight: 200;
+            margin: 5rem 1rem 5rem .3rem;
+        }
+
+        .title-container img {
+            margin: 5rem .5rem 5rem 0;
+        }
+
+        .subtitle-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .subtitle-container .title {
+            font-weight: 700;
+            font-size: 45px;
+            margin-bottom: 3rem;
+        }
+
+        .table-pircing .buttons {
+            display: flex;
+            justify-content: center;
+        }
+
+        .buttons .button1 {
+            width: 180px;
+            height: 40px;
+            border-radius: 22px;
+            border: 0;
+            color: #FFFFFF;
+            background-color: #C271FF;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            outline: none;
+            margin: 0 15rem 0 26rem;
+        }
+
+        .buttons .button2 {
+            width: 180px;
+            height: 40px;
+            border-radius: 22px;
+            border: 0;
+            color: #FFFFFF;
+            background-color: #C271FF;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            outline: none;
+        }
+
+        .table-pircing .price {
+            display: flex;
+            justify-content: center;
+        }
+
+        .price .price1 {
+            font-weight: 700;
+            font-size: 32px;
+            margin: 3rem 20rem 0 26rem;
+            text-align: center;
+        }
+
+        .price .price2 {
+            font-weight: 700;
+            font-size: 32px;
+            margin: 3rem 0 0 0;
+            text-align: center;
+        }
+
+        .price span {
+            font-size: 10px;
+            opacity: 50%;
+            margin: 0;
+        }
+
+        .table-pircing .table {
+            color: #FFFFFF;
+            width: 850px;
+        }
+
+        .table hr {
+            background-color: #FFFFFF;
+            color: #FFFFFF;
+        }
+
+    /* FAQ section
+        ============================ */
+
+        .faq {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            background-color: #FFFFFF;
+            max-width: 100%;
+            height: 700px;
+        }
+
+        .faq .faq-title {
+            margin: 5rem 0 5rem 0;
+            text-align: center;
+        }
+
+        .faq-title h2 {
+            font-weight: 200;
+            font-size: 55px;
+        }
+
+        .faq-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .faq-container .faq-information {
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            height: 245px;
+            margin: 0 5rem 0 5rem;
+        }
+
+        .faq-information .title {
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .faq-information .information {
+            font-weight: 200;
+            font-size: 12px;
+        }
