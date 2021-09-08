@@ -695,6 +695,11 @@ html {
             color: #FFFFFF;
         }
 
+        .container-1 {
+            display: flex;
+            justify-content: center;
+        }
+
         .container-pircing .title-container {
             display: flex;
             justify-content: center;
@@ -789,6 +794,10 @@ html {
             color: #FFFFFF;
         }
 
+        #w {
+            color: green;
+        }
+
     /* FAQ section
         ============================ */
 
@@ -835,3 +844,8 @@ html {
             font-weight: 200;
             font-size: 12px;
         }
+
+    /* Courses page
+        ============================ */
+
+        
