@@ -813,7 +813,7 @@ html {
         }
 
         .faq .faq-title {
-            margin: 5rem 0 5rem 0;
+            margin: 15rem 0 5rem 0;
             text-align: center;
         }
 
@@ -849,4 +849,33 @@ html {
     /* Courses page
         ============================ */
 
+        .principal-section-courses {
+            background-image: url("images/pic_3.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            background-color: #D8D8D8;
+            max-width: 100%;
+            height: 215px;
+        }
+
+        .main-courses {
+            color: #FFFFFF;
+        }
+
+        .title-courses-div {
+            display: flex;
+            justify-content: center;
+        }
+
+        .title-courses {
+            font-weight: 400;
+            font-size: 32px;
+            font-family: Coiny;
+        }
+
+        .title-courses .smile {
+            color: #C271FF;
+        }
         
