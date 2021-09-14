@@ -878,4 +878,26 @@ html {
         .title-courses .smile {
             color: #C271FF;
         }
+
+        .search-filters {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: cover;
+            background-color: #C271FF;
+            max-width: 100%;
+            height: 215px;
+        }
+
+        .filters {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .filters .subtitle {
+            color: #FFFFFF;
+            font-size: 12px;
+            font-weight: 700;
+            margin: 3rem 0 0.5rem 0;
+        }
         
