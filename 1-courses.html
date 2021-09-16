@@ -53,9 +53,26 @@
         <!-- Search filters section -->
         <section class="search-filters">
             <div class="filters">
-                <h3 class="subtitle">keywords</h3>
-                <h3 class="subtitle">topic</h3>
-                <h3 class="subtitle">sort by</h3>
+                <div class="col-1">
+                    <label class="subtitle">keywords</label>
+                    <input type="search" name="search" id="search" placeholder="Search by keywords">
+                </div>
+                <div class="col-2">
+                    <label class="subtitle">topic</label>
+                    <select name="topics" id="topics">
+                        <option value="Novice">Novice</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Expert">Expert</option>
+                    </select>
+                </div>
+                <div class="col-3">
+                    <label class="subtitle">sort by</label>
+                    <select name="sort-by" id="sort-by">
+                        <option value="most-popular">Most popular</option>
+                        <option value="most-recent">Most recent</option>
+                        <option value="most-viewed">Most viewed</option>
+                    </select>
+                </div>
             </div>
         </section>
     </body>
